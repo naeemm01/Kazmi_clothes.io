@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazmi Clothes Store</title>
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body class="bg-gray-100">
+    <div class="h-screen overflow-y-auto scroll-smooth">
+
+<nav class="bg-pink-500 text-white fixed top-0 w-full z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <span class="text-lg font-bold">Kazmi</span>
+            </div>
+            <!-- Toggler for mobile -->
+            <div class="block md:hidden">
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M21 15v-2H3v2h18zm0-6H3v2h18v-2zm0-6H3v2h18V3z" clip-rule="evenodd"/>
+                    </svg>
+                </button>
+            </div>
+            <!-- Navbar items -->
+            <div class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="men.html" class="hover:text-gray-300">Men</a></li>
+                    <li><a href="women.html" class="hover:text-gray-300">Women</a></li>
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+        <ul class="bg-pink-500">
+            <li><a href="#" class="block py-2 px-4 text-white hover:bg-pink-400">Home</a></li>
+            <li><a href="men.html" class="block py-2 px-4 text-white hover:bg-pink-400">Men</a></li>
+            <li><a href="women.html" class="block py-2 px-4 text-white hover:bg-pink-400">Women</a></li>
+            <li><a href="#about" class="block py-2 px-4 text-white hover:bg-pink-400">About</a></li>
+            <li><a href="#" class="block py-2 px-4 text-white hover:bg-pink-400">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+        <br class="hidden lg:inline-block">Discover Your Style
+      </h1>
+<p class="mb-8 leading-relaxed">Elevate your wardrobe with our latest collection of stylish and comfortable clothing for every occasion. From trendy streetwear to classic essentials, we offer a wide range of high-quality garments that will enhance your personal style and make you stand out from the crowd.</p>
+      <div class="flex justify-center">
+<a href="#new_arrival">
+    <button class="inline-flex text-white bg-pink-700 border-0 py-1 px-2 focus:outline-none hover:bg-pink-800 rounded text-lg">Explore</button>
+</a>
+
+
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="img/hero_1-removebg.png">
+    </div>
+  </div>
+</section>
+
+<hr class="hr-hotpink">
+
+
+<!-- new arival -->
+<section class="text-gray-600 body-font" id="new_arrival">
+  <div class="container px-5 py-24 mx-auto">
+    <!-- Heading -->
+    <h2 class="text-3xl text-center font-medium mb-12">New Arrivals</h2>
+    <!-- Image Grid -->
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 1" class="object-cover object-center w-full h-full block" src="img/new_1.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Stylish T-Shirt</h2>
+          <p class="mt-1">$24.99</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 2" class="object-cover object-center w-full h-full block" src="img/new_2.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Dresses</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Elegant Dress</h2>
+          <p class="mt-1">$39.99</p>
+        </div>
+      </div>
+
+ <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 1" class="object-cover object-center w-full h-full block" src="img/new_3.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Casual Jeans</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Comfortable denim jeans </h2>
+          <p class="mt-1">$24.99</p>
+        </div>
+      </div>
+
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 1" class="object-cover object-center w-full h-full block" src="img/new_4.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Summer Dresses</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Light and airy dresses</h2>
+          <p class="mt-1">$24.99</p>
+        </div>
+      </div>
+
+       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 1" class="object-cover object-center w-full h-full block" src="img/new_5.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Formal Blazers"</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Elegant blazers</h2>
+          <p class="mt-1">$24.99</p>
+        </div>
+      </div>
+
+ <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 1" class="object-cover object-center w-full h-full block" src="img/new_6.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Athletic Wear</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Stylish and functional activewear</h2>
+          <p class="mt-1">$24.99</p>
+        </div>
+      </div>
+
+
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 1" class="object-cover object-center w-full h-full block" src="img/new_7.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Cozy Sweaters</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Warm and cozy sweaters</h2>
+          <p class="mt-1">$24.99</p>
+        </div>
+      </div>
+
+
+
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="New Arrival 1" class="object-cover object-center w-full h-full block" src="img/new_8.jpg">
+        </a>
+        <div class="mt-4">
+          <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Classic Shirts</h2>
+          <h2 class="text-gray-900 title-font text-lg font-medium">Timeless shirts in classic designs</h2>
+          <p class="mt-1">$24.99</p>
+        </div>
+      </div>
+
+      <!-- Add more image blocks with similar structure here -->
+    </div>
+  </div>
+</section>
+<hr class="hr-hotpink">
+
+<!-- top rated -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <h2 class="text-3xl text-center font-medium mb-8">Top Rated</h2>
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden image-container">
+          <img alt="content" class="object-cover object-center h-full w-full" src="img/top_3.jpg">
+        </div>
+         <div class="mt-4">
+    <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Ladies' Top Rated</h2>
+    <h2 class="text-gray-900 title-font text-lg font-medium">Stylish Tops</h2>
+    <p class="mt-1">Discover the latest in women's fashion.</p>
+<a href="order.html">
+    <button class="inline-flex text-white bg-pink-700 border-0 py-1 px-2 focus:outline-none hover:bg-pink-800 rounded text-lg">Shop Now</button>
+</a>
+  </div>      </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden image-container">
+          <img alt="content" class="object-cover object-center h-full w-full" src="img/top_2.jpg">
+        </div>
+        <div class="mt-4">
+    <h2 class="text-gray-500 text-xs tracking-widest title-font mb-1">Men's Top Rated</h2>
+    <h2 class="text-gray-900 title-font text-lg font-medium">Elegant Blazers</h2>
+    <p class="mt-1">Upgrade your wardrobe with our latest collection of men's blazers.</p>
+<a href="order.html">
+    <button class="inline-flex text-white bg-pink-700 border-0 py-1 px-2 focus:outline-none hover:bg-pink-800 rounded text-lg">Shop Now</button>
+</a>
+
+  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- testinomial -->
+<section class="text-gray-600 body-font">
+  <h2 class="text-center text-3xl font-medium mb-8">Our Satisfied Customers</h2>  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div class="h-full text-center">
+          <img
+            alt="testimonial"
+            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+            src="img/hassan.jpeg"
+          />
+          <p class="leading-relaxed">
+            I finally found a clothing store that gets my style! Kazmi Store has such a unique selection of pieces, and the quality is amazing. I always feel confident and put-together when I wear their clothes. Plus, the customer service is top-notch. They helped me find the perfect outfit for a special occasion, and I couldn't be happier!
+          </p>
+          <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            Hassan Nawaz
+          </h2>
+        </div>
+      </div>
+      <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div class="h-full text-center">
+          <img
+            alt="testimonial"
+            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+            src="img/waseem.jpeg"
+          />
+          <p class="leading-relaxed">
+            Shopping for clothes used to be such a chore, but Kazmi Store has completely changed that. Their website is easy to navigate, and they offer a wide variety of sizes and styles to fit everyone. I love that they also have a great selection of accessories to complete any look. I highly recommend this store to anyone looking for stylish and affordable clothing.
+          </p>
+          <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            Waseem asif
+          </h2>
+        </div>
+      </div>
+      <div class="lg:w-1/3 lg:mb-0 p-4">
+        <div class="h-full text-center">
+          <img
+            alt="testimonial"
+            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+            src="img/naeem.jpeg"
+          />
+          <p class="leading-relaxed">
+            I've been a loyal customer of Kazmi Store for years now, and I keep coming back for their incredible selection and commitment to sustainability. Their clothes are made with high-quality materials that last, and they offer a variety of eco-friendly options. Plus, they regularly have sales and promotions, which makes shopping even more enjoyable.
+          </p>
+          <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            Naeem asif
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="hr-hotpink">
+
+<!-- About us -->
+<section class="text-gray-600 body-font" id="about">
+  <div class="container px-5 py-24 mx-auto">
+    <!-- About Us Heading -->
+    <h1 class="text-3xl text-center font-medium mb-10">About Us</h1>
+    <!-- About Us Content -->
+    <div class="flex flex-col items-center">
+      <!-- Circular Image -->
+      <div class="w-24 h-24 rounded-full overflow-hidden mb-8">
+        <img class="object-cover object-center w-full h-full" src="img/naeem.jpeg" alt="Kazmi Store">
+      </div>
+      <!-- Description -->
+      <p class="text-lg text-center leading-relaxed mb-8">Kazmi Stores is your one-stop destination for all your fashion needs. With a wide range of clothing, accessories, and footwear, we strive to provide the latest trends at affordable prices.</p>
+      <p class="text-lg text-center leading-relaxed mb-8">Our mission is to make fashion accessible to everyone, offering a diverse selection of styles to suit every taste and occasion. From casual wear to formal attire, we've got you covered.</p>
+      <p class="text-lg text-center leading-relaxed mb-8">At Kazmi Stores, customer satisfaction is our top priority. Our friendly and knowledgeable staff are always here to assist you in finding the perfect outfit or accessory to express your unique style.</p>
+      <p class="text-lg text-center leading-relaxed mb-8">With a commitment to quality and style, we aim to inspire confidence and empower individuals to embrace their personal fashion journey.</p>
+      <p class="text-lg text-center leading-relaxed mb-8">Visit us today and experience the Kazmi Stores difference!</p>
+    </div>
+  </div>
+</section>
+
+<hr class="hr-hotpink">
+
+<!-- Contact Us -->
+<section class="text-gray-600 body-font relative" id="contact">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Upgrade your wardrobe with our latest collection of men's clothing. Whether you're looking for stylish blazers or comfortable denim jeans, we have everything you need to stay fashionable.</p>
+    </div>
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+            <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+            <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+        </div>
+        <div class="p-2 w-full">
+<button class="inline-flex text-white bg-pink-700 border-0 py-2 px-6 focus:outline-none hover:bg-pink-800 rounded text-lg">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="hr-hotpink">
+
+
+
+
+<!-- footer -->
+<footer class="text-gray-600 body-font bg-pink-500 py-12">
+  <div class="container px-5 mx-auto flex flex-col md:flex-row md:items-center justify-center">
+    <div class="md:w-64 md:mx-0 mx-auto text-center md:text-left mb-4 md:mb-0">
+      <a class="flex title-font font-medium items-center justify-center text-white" href="#">
+        <!-- Shopping Icon -->
+        <i class="fas fa-shopping-bag text-white text-4xl mr-3"></i>
+        <span class="text-xl text-white">Kazmi Store</span>
+      </a>
+      <p class="mt-2 text-sm text-white">Discover your style with our unique collection of clothing.</p>
+    </div>
+    <div class="flex-grow flex flex-wrap justify-center md:justify-end">
+      
+      <!-- Social Icons -->
+      <div class="w-full md:w-auto px-4 mt-auto">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3 text-right">Follow Us</h2>
+        <div class="flex justify-end">
+          <a class="text-white hover:text-gray-800 mr-4" href="#"><i class="fab fa-facebook"></i></a>
+          <a class="text-white hover:text-gray-800 mr-4" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="text-white hover:text-gray-800 mr-4" href="#"><i class="fab fa-instagram"></i></a>
+          <a class="text-white hover:text-gray-800" href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+        document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+</script>
+
+</body>
+</html>
